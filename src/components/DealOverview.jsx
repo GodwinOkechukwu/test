@@ -147,7 +147,9 @@ const DealOverview = ({ deal, marketBenchmarks }) => {
         </h2>
         <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
           {marketBenchmarks.map((benchmark, i) => (
-            <div key={i} className="border p-4 rounded-lg bg-white shadow-sm">
+            <div
+              key={i}
+              className="border p-4 rounded-lg hover:scale-105 bg-white shadow-sm">
               <p className="text-gray-500 text-xs">Address</p>
               <p className="font-semibold text-base">{benchmark.address}</p>
               <p className="text-gray-500 text-xs">Rent: {benchmark.rent}</p>

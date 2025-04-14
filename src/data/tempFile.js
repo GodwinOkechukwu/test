@@ -72,7 +72,7 @@ const mockDeal = {
       submarket: "Mission",
       delivery: "Q1 2026",
       owner: "DevGroup",
-      sf: "18,000",
+      sf: "20,000",
       image: heroImage,
       href: "https://www.google.com/maps/@40.6742334,-74.0147862,3a,75y,85.6h,101.64t/data=!3m7!1e1!3m5!1sAF1QipNOk-DcjtRg6fqvC7bieI52tdiMGAzR04wVbUJ7!2e10!6s%2F%2Flh5.ggpht.com%2Fp%2FAF1QipNOk-DcjtRg6fqvC7bieI52tdiMGAzR04wVbUJ7%3Dw900-h600-k-no-pi-11.64294113332673-ya225.98223254438935-ro0-fo100!7i7680!8i3840?coh=205410&entry=ttu&g_ep=EgoyMDI0MTAyOS4wIKXMDSoASAFQAw%3D%3D",
     },

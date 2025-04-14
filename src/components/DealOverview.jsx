@@ -201,7 +201,7 @@ const DealOverview = ({ deal, marketBenchmarks }) => {
           {deal.saleComparables.map((comp, i) => (
             <div
               key={i}
-              className="border p-4 rounded-lg shadow-md hover:scale-105 hover:shadow-xl transition-shadow flex justify-between">
+              className="border p-4 rounded-lg shadow-md hover:scale-105 hover:shadow-xl transition-shadow flex gap-2 justify-between">
               <a href={comp.href} target="_blank">
                 <img
                   src={comp.image}
@@ -229,7 +229,7 @@ const DealOverview = ({ deal, marketBenchmarks }) => {
           {deal.pipeline.map((item, i) => (
             <div
               key={i}
-              className="border p-4 rounded-lg shadow-md hover:scale-105 hover:shadow-xl flex justify-between transition-shadow">
+              className="border p-4 rounded-lg shadow-md hover:scale-105 hover:shadow-xl flex gap-2 justify-between transition-shadow">
               <a href={item.href} target="_blank">
                 <img
                   src={item.image}
